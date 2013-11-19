@@ -1,0 +1,10 @@
+[user]
+	name = Alister Burrell
+	email = alister.burrell@coull.com
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = /usr/bin/vim

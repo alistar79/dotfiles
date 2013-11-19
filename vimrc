@@ -53,7 +53,7 @@ NeoBundle 'tpope/vim-classpath'
 " Sensible Defaults
 NeoBundle 'tpope/vim-sensible'
 " Clojure
-NeoBundle 'vim-clojure-static'
+NeoBundle 'guns/vim-clojure-static'
 filetype plugin indent on
 
 ""
