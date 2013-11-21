@@ -106,7 +106,7 @@ nmap \q :set nohlsearch<CR>
 nmap <C-e> :e#<CR>
 nmap <C-n> :bnext<CR>
 nmap <C-p> :bprev<CR>
-
+vmap <C-c> "+y
 map <Leader>x :%s/\s\+$//<CR>
 
 " use hjkl
