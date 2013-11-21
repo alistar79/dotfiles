@@ -54,6 +54,8 @@ NeoBundle 'tpope/vim-classpath'
 NeoBundle 'tpope/vim-sensible'
 " Clojure
 NeoBundle 'guns/vim-clojure-static'
+" Grep
+NeoBundle 'grep.vim'
 filetype plugin indent on
 
 ""
