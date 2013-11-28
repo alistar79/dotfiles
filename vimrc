@@ -56,6 +56,8 @@ NeoBundle 'tpope/vim-sensible'
 NeoBundle 'guns/vim-clojure-static'
 " Grep
 NeoBundle 'grep.vim'
+" NERDCommenter
+NeoBundle 'scrooloose/nerdcommenter'
 filetype plugin indent on
 
 ""

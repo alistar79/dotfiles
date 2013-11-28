@@ -1,11 +1,16 @@
-snippet mds "Modified Date Stamp"
+snippet mds "Modified Date Stamp" b
 # @modified `date +%Y%m%d` - ${1:Tracker} #${2:IssueID}: ${3:Subject}
 endsnippet
 
-snippet ads "Added Date Stamp"
+snippet ads "Added Date Stamp" b
 # @added `date +%Y%m%d` - ${1:Tracker} #${2:IssueID}: ${3:Subject}
 endsnippet
 
-snippet rds "Removed Date Stamp"
+snippet rds "Removed Date Stamp" b
 # @removed `date +%Y%m%d` - ${1:Tracker} #${2:IssueID}: ${3:Subject}
+endsnippet
+
+snippet gitcommit "Git Commit Message" b
+IssueID #${1:IssueID}: ${2:Subject}
+$3
 endsnippet
