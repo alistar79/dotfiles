@@ -4,7 +4,7 @@ set spoolfile = imaps://imap.gmail.com/INBOX
 set folder = imaps://imap.gmail.com/
 set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
 set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
-#set trash="imaps://imap.gmail.com/[Gmail]/Trash"
+set trash="imaps://imap.gmail.com/[Gmail]/Trash"
 bind editor <space> noop
 macro index,pager y "<save-message>=[Gmail]/All Mail<enter><enter>" "Archive"
 macro index,pager d "<save-message>=[Gmail]/Trash<enter><enter>" "Trash"
