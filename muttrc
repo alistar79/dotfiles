@@ -1,0 +1,17 @@
+set imap_user = 'alister.burrell@coull.com'
+set imap_pass = 'ddnylkhwkguowmeg'
+set spoolfile = imaps://imap.gmail.com/INBOX
+set folder = imaps://imap.gmail.com/
+set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
+set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+#set trash="imaps://imap.gmail.com/[Gmail]/Trash"
+bind editor <space> noop
+macro index,pager y "<save-message>=[Gmail]/All Mail<enter><enter>" "Archive"
+macro index,pager d "<save-message>=[Gmail]/Trash<enter><enter>" "Trash"
+macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"
+macro index ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
+macro index gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
+macro index gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+macro index go "<change-folder>=[Gmail/Social<enter>" "Go to social"
+macro index gp "<change-folder>=[Gmail/Promotions<enter>" "Go to Promotions"
+set signature="~/.mutt/signature.coull"
