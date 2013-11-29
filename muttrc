@@ -1,5 +1,5 @@
 set imap_user = 'alister.burrell@coull.com'
-set imap_pass = 'ddnylkhwkguowmeg'
+set imap_pass = `cat ~/.gmailpass`
 set spoolfile = imaps://imap.gmail.com/INBOX
 set folder = imaps://imap.gmail.com/
 set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
