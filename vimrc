@@ -77,6 +77,7 @@ set title
 set mouse=a
 set clipboard=unnamed
 set autoread
+set tags=./tags;
 syntax on
 
 ""
@@ -177,6 +178,8 @@ au BufNewFile,BufRead *.html set ts=2 sw=2
 au BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn} setf markdown
 " Make files
 au FileType make setlocal noexpandtab
+" Puppet tag navigating fix
+au FileType puppet setlocal isk+=:
 
 ""
 " General GUI options
