@@ -8,6 +8,7 @@ set trash="imaps://imap.gmail.com/[Gmail]/Trash"
 set mail_check = 120
 set timeout = 300
 set imap_keepalive = 300
+set imap_check_subscribed
 bind editor <space> noop
 macro index,pager y "<save-message>=[Gmail]/All Mail<enter>" "Archive"
 macro index,pager d "<save-message>=[Gmail]/Trash<enter>" "Trash"
