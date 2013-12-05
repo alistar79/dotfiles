@@ -10,6 +10,14 @@ snippet rds "Removed Date Stamp" b
 # @removed `date +%Y%m%d` - ${1:Tracker} #${2:IssueID}: ${3:Subject}
 endsnippet
 
+snippet cds "Created Date Stamp" b
+# @created `date +%Y%m%d` - ${1:Tracker} #${2:IssueID}: ${3:Subject}
+endsnippet
+
+snippet author "Author" b
+# @author Alister Burrell (@alistarb)
+endsnippet
+
 snippet gitcommit "Git Commit Message" b
 IssueID #${1:IssueID}: ${2:Subject}
 $3
