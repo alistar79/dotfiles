@@ -72,7 +72,8 @@ NeoBundle 'ZoomWin'
 NeoBundle 'jeetsukumaran/vim-buffergator'
 " Unimpaired Handy Mappings
 NeoBundle 'tpope/vim-unimpaired'
-
+" TemplateX
+NeoBundle 'templateX'
 
 filetype plugin indent on
 
@@ -181,6 +182,8 @@ let g:airline_paste_symbol = '∥'
 " Riv
 let g:riv_fold_auto_update=0
 
+" TemplateX
+let g:templateX_templates = $HOME . '/.vim/templateX'
 ""
 " Filetype settings
 ""
