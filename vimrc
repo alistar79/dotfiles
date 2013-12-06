@@ -148,7 +148,7 @@ let g:ctrlp_switch_buffer = 0
 " NERDTree
 nmap \e :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
-autocmd vimenter * NERDTree
+autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " Indenting stuff
