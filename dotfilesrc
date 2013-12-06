@@ -1,6 +1,6 @@
 [dotfiles]
 repository = ~/Dotfiles
-packages = ['ssh', 'mutt']
+packages = ['ssh', 'mutt', 'vim']
 ignore = [
     '.git',
     '.gitignore',

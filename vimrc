@@ -33,7 +33,7 @@ NeoBundle 'guns/ultisnips'
 " Hybrid colorscheme
 NeoBundle 'w0ng/vim-hybrid'
 " Puppet
-NeoBundle 'daenney/vim-puppet'
+NeoBundle 'rodjek/vim-puppet'
 " Markdown
 NeoBundle 'tpope/vim-markdown'
 " Nagios
@@ -58,6 +58,22 @@ NeoBundle 'guns/vim-clojure-static'
 NeoBundle 'grep.vim'
 " NERDCommenter
 NeoBundle 'scrooloose/nerdcommenter'
+" Gist
+NeoBundle 'mattn/gist-vim'
+" Supertab
+NeoBundle 'ervandew/supertab'
+" EasyMotion
+NeoBundle 'Lokaltog/vim-easymotion'
+" Narrow Region Selection for edits/searches
+NeoBundle 'chrisbra/NrrwRgn'
+" ZoomWin
+NeoBundle 'ZoomWin'
+" BufferGator Buffer Navigator
+NeoBundle 'jeetsukumaran/vim-buffergator'
+" Unimpaired Handy Mappings
+NeoBundle 'tpope/vim-unimpaired'
+
+
 filetype plugin indent on
 
 ""
