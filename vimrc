@@ -22,14 +22,14 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'davidhalter/jedi-vim'
 " Git wrapper
 NeoBundle 'tpope/vim-fugitive'
-" Numbers
+" Line Numbers
 NeoBundle "myusuf3/numbers.vim"
 " iTerm2 / tmux integration
 NeoBundle 'sjl/vitality.vim'
 " Align text
 NeoBundle 'godlygeek/tabular'
 " Code snippet support
-NeoBundle 'guns/ultisnips'
+NeoBundle 'SirVer/ultisnips'
 " Hybrid colorscheme
 NeoBundle 'w0ng/vim-hybrid'
 " Puppet
@@ -74,6 +74,8 @@ NeoBundle 'jeetsukumaran/vim-buffergator'
 NeoBundle 'tpope/vim-unimpaired'
 " TemplateX
 NeoBundle 'templateX'
+" TagBar Tag Browser
+NeoBundle 'majutsushi/tagbar'
 
 filetype plugin indent on
 
