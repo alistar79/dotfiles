@@ -6,7 +6,7 @@ ControlMaster auto
 ControlPath ~/.ssh/connections/%r_%h_%p
 #ProxyCommand corkscrew 82.197.70.137 8080 %h %p
 
-Host *doa.coull.com
+Host *do*.coull.com
 KeepAlive yes
 ServerAliveInterval 60
 ControlMaster auto
