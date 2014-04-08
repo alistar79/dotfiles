@@ -76,6 +76,8 @@ NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'templateX'
 " TagBar Tag Browser
 NeoBundle 'majutsushi/tagbar'
+" auto_mkdir
+NeoBundle 'DataWraith/auto_mkdir'
 
 filetype plugin indent on
 
