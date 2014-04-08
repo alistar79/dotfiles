@@ -1,0 +1,20 @@
+####    Modulefile    ####
+#
+# @author Alister Burrell (@alistarb)
+# @created __year____month____day__ - __goto__IssueType #IssueID: IssueName
+# @modified
+# @license 
+# @source ssh://git@github.com:coull/puppet/modules/__puppet_class__/Modulefile
+# @local
+#
+name    '__puppet_class__'
+version '0.0.1'
+source 'UNKNOWN'
+author 'alistarb'
+license 'UNKNOWN'
+summary 'UNKNOWN'
+description 'UNKNOWN'
+project_page 'UNKNOWN'
+
+## Add dependencies, if any:
+# dependency 'username/name', '>= 1.2.0'
