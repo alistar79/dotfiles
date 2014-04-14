@@ -30,6 +30,8 @@ NeoBundle 'sjl/vitality.vim'
 NeoBundle 'godlygeek/tabular'
 " Code snippet support
 NeoBundle 'SirVer/ultisnips'
+" Snippets
+NeoBundle 'honza/vim-snippets'
 " Hybrid colorscheme
 NeoBundle 'w0ng/vim-hybrid'
 " Puppet
