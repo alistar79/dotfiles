@@ -244,3 +244,4 @@ endif
 
 colorscheme hybrid
 let g:syntastic_puppet_lint_disable = 0
+let g:syntastic_puppet_puppetlint_args='--no-80chars-check'
