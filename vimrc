@@ -6,7 +6,8 @@ set rtp+=~/.vim/bundle/neobundle.vim
 set shell=/bin/bash
 
 " Plugin manager
-call neobundle#rc(expand('~/.vim/bundle/'))
+"call neobundle#rc(expand('~/.vim/bundle/'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/vimproc'
 
@@ -80,6 +81,8 @@ NeoBundle 'templateX'
 NeoBundle 'majutsushi/tagbar'
 " auto_mkdir
 NeoBundle 'DataWraith/auto_mkdir'
+
+call neobundle#end()
 
 filetype plugin indent on
 
@@ -170,20 +173,32 @@ set laststatus=2 " Always display the statusline in all windows
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)
 
 " Airline
-let g:airline_enable_branch=1
-let g:airline_enable_syntastic=1
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+"let g:airline_enable_branch=1
+let g:airline#extensions#branch#enabled = 1
+"let g:airline_enable_syntastic=1
+let g:airline#extensions#syntastic#enabled = 1
 let g:airline_powerline_fonts=0
 let g:airline_left_sep = '»'
 let g:airline_left_sep = '▶'
 let g:airline_right_sep = '«'
 let g:airline_right_sep = '◀'
-let g:airline_linecolumn_prefix = '␊ '
-let g:airline_linecolumn_prefix = '␤ '
-let g:airline_linecolumn_prefix = '¶ '
-let g:airline_branch_prefix = '⎇ '
-let g:airline_paste_symbol = 'ρ'
-let g:airline_paste_symbol = 'Þ'
-let g:airline_paste_symbol = '∥'
+"let g:airline_linecolumn_prefix = '␊ '
+"let g:airline_linecolumn_prefix = '␤ '
+"let g:airline_linecolumn_prefix = '¶ '
+let g:airline_symbols.linenr = '␊ '
+let g:airline_symbols.linenr = '␤ '
+let g:airline_symbols.linenr = '¶ '
+"let g:airline_branch_prefix = '⎇ '
+let g:airline_symbols.branch = '⎇'
+"let g:airline_paste_symbol = 'ρ'
+"let g:airline_paste_symbol = 'Þ'
+"let g:airline_paste_symbol = '∥'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
 
 " Riv
 let g:riv_fold_auto_update=0

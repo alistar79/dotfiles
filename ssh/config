@@ -6,6 +6,22 @@ ControlMaster auto
 ControlPath ~/.ssh/connections/%r_%h_%p
 #ProxyCommand corkscrew 82.197.70.137 8080 %h %p
 
+Host *.coull.com
+KeepAlive yes
+ServerAliveInterval 60
+ControlMaster auto
+ControlPath ~/.ssh/connections/%r_%h_%p
+IdentityFile ~/.ssh/feature_5315_deployment_key
+#ProxyCommand corkscrew 82.197.70.137 8080 %h %p
+
+Host *luk*.coull.com
+KeepAlive yes
+ServerAliveInterval 60
+ControlMaster auto
+ControlPath ~/.ssh/connections/%r_%h_%p
+IdentityFile ~/.ssh/feature_5315_deployment_key
+#ProxyCommand corkscrew 82.197.70.137 8080 %h %p
+
 Host *do*.coull.com
 KeepAlive yes
 ServerAliveInterval 60
